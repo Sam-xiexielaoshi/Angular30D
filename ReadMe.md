@@ -61,14 +61,28 @@ Before starting, make sure you are familiar with the **core concepts** of:
 
 | Day | Topic | Status |
 |-----|-------|--------|
-| 1   | Environment Setup & First Component | ✅ Done |
-| 2   | Data Binding | ⏳ In Progress |
+| 1   | Profile-Card | ✅ Done |
+| 2   | ... | ... | ⏳ In Progress |
 | ... | ... | ... |
 | 30  | Final Project Deployment | 🚀 Coming Soon |
-
-> 🔄 Update this table daily to track your progress!
 
 ---
 
 ## 📁 Folder Structure
 
+/Angular30D/
+├── profile-card/
+│ └── .angular/
+├── ...
+└── README.md
+
+
+---
+
+## 🚀 Let's Get Started!
+
+Clone the repo and follow along each day. Feel free to fork and contribute ideas!
+
+```bash
+git clone https://github.com/Sam-xiexielaoshi/Angular30D
+cd Angular30D
