@@ -1,59 +1,98 @@
-# ProfileCard
+# 📅 Day 1 – Profile Card App | 30 Days Angular Challenge
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.0.
+Welcome to **Day 1** of the **30 Days Angular Challenge**! 🎉
 
-## Development server
+Today’s project is a beginner-friendly task to help you get started with **Angular fundamentals**.
 
-To start a local development server, run:
+---
+
+## 🎯 Project Overview
+
+We will build a **simple Profile Card** application that introduces:
+
+- ✅ String Interpolation
+- ✅ Two-way Data Binding
+
+Users can **view** and **dynamically update** their profile information (Name, Age, Description and Location) using a simple form bound to a card UI.
+
+---
+
+## 📚 What You Will Learn
+
+- Display dynamic content using Angular's **string interpolation** (`{{ }}`)
+- Use **two-way data binding** (`[(ngModel)]`) to sync form input with model data
+- Understand the relationship between the **Component (TS)** and the **Template (HTML)**
+
+---
+
+## 🛠️ Tech Stack
+
+- **Angular 16+**
+- **TypeScript**
+- **HTML/CSS**
+
+---
+
+## 📦 Features
+
+- 👤 Display user info: **Name**, **Age**, **Location** and **Description**
+- ✍️ Edit profile fields using input fields
+- 🔁 Real-time updates of profile card using Angular binding
+
+---
+
+## 📁 Project Structure
+
+```kotlin
+profile-card/
+├── src/
+│ ├── app/
+│ │ ├── app.ts
+│ │ ├── app.html
+│ │ ├── app.scss
+│ │ └── app.config.ts
+│ └── index.html
+├── angular.json
+├── package.json
+└── README.md
+
+---
+
+
+---
+
+## 🧱 Key Angular Concepts Used
+
+| Concept                | Usage Example                             |
+|------------------------|--------------------------------------------|
+| **String Interpolation** | `{{ user.name }}` to display data in HTML |
+| **Two-way Binding**      | `[(ngModel)]="user.name"` in input fields |
+
+---
+
+## ▶️ Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/Sam-xiexielaoshi/Angular30D
+cd Angular30D\profile-card
+
+---
+
+## Install Dependencies
+
+```bash
+npm i 
+or
+npm install
+
+---
+
+## Run the Angular App
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Then open your browser and visit http://localhost:4200/
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
