@@ -47,7 +47,7 @@ Before starting, make sure you are familiar with the **core concepts** of:
 - Positioning (`relative`, `absolute`, `fixed`)
 - Layout (`flex`, `grid`)
 
-### 📜 JavaScript
+### 📜 JavaScript & TypeScript
 - Variables and Data Types
 - Arrays and Objects
 - Functions
