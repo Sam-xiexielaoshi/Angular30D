@@ -105,6 +105,6 @@ By the end of this project, you’ll have built a working Profile Card App where
 
 ---
 
-###🙌 Keep Going!
+### 🙌 Keep Going!
 🎉 Great job finishing Day 1!
 Move on to Day 2 to explore Angular directives and conditional rendering.
