@@ -70,11 +70,12 @@ Before starting, make sure you are familiar with the **core concepts** of:
 
 ## 📁 Folder Structure
 
-/Angular30D/
-├── profile-card/
-│ └── .angular/
+Angular30D/
+├── day01/
+│   └── profile-card/
 ├── ...
 └── README.md
+
 
 
 ---
