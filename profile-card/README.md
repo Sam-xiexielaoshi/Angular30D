@@ -55,6 +55,7 @@ profile-card/
 ├── angular.json
 ├── package.json
 └── README.md
+```
 
 ---
 
@@ -83,7 +84,7 @@ cd Angular30D\profile-card
 
 ```bash
 npm i 
-or
+    or
 npm install
 
 ---
