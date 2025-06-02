@@ -82,7 +82,6 @@ cd Angular30D\profile-card
 
 ## Install Dependencies
 
-```bash
 npm i 
     or
 npm install
@@ -91,9 +90,21 @@ npm install
 
 ## Run the Angular App
 
-```bash
 ng serve
 ```
 
 Then open your browser and visit http://localhost:4200/
 
+---
+
+### ✅ Outcome
+By the end of this project, you’ll have built a working Profile Card App where users can:
+
+    a. View their info
+    b. Edit it live using two-way data binding
+
+---
+
+###🙌 Keep Going!
+🎉 Great job finishing Day 1!
+Move on to Day 2 to explore Angular directives and conditional rendering.
