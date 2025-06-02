@@ -69,7 +69,7 @@ Before starting, make sure you are familiar with the **core concepts** of:
 ---
 
 ## 📁 Folder Structure
-
+```kotlin
 Angular30D/
 ├── day01/
 │   └── profile-card/
