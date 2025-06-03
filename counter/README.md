@@ -48,6 +48,7 @@ counter/
 ├── tsconfig.json
 ├── .gitignore
 └── README.md
+```
 
 ---
 
