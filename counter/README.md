@@ -1,59 +1,108 @@
-# Counter
+# 📅 Day 2 – Counter App | 30 Days Angular Challenge
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.0.
+Welcome to **Day 2** of the **30 Days Angular Challenge**! 🚀
 
-## Development server
+Today’s mini-project is a **Counter App**, focused on building a reusable Angular component and learning **event binding**.
 
-To start a local development server, run:
+---
+
+## 🎯 Project Overview
+
+In this project, we build a **simple counter** application with the ability to:
+
+- ➕ Increment the count
+- ➖ Decrement the count (even into negative numbers)
+- 👆 Handle user events like button clicks
+
+---
+
+## 🧠 Angular Concepts Covered
+
+| Concept         | Description                                                              |
+|-----------------|--------------------------------------------------------------------------|
+| **Event Binding** | Use of `(click)` events to trigger functions in the component class     |
+| **Component Structure** | Create and use a dedicated `CounterComponent` inside the app       |
+
+---
+
+## 🧱 Project Structure
+
+```markdown
+
+counter/
+├── src/
+│ └── app/
+│ ├── counter/
+│ │ ├── counter.html
+│ │ ├── counter.scss
+│ │ ├── counter.ts
+│ │ └── counter.spec.ts
+│ ├── app.html
+│ ├── app.routes.ts
+│ ├── app.ts
+│ ├── app.config.ts
+│ ├── app.scss
+│ └── index.html
+├── angular.json
+├── package.json
+├── tsconfig.json
+├── .gitignore
+└── README.md
+
+---
+
+> ✅ Your `counter.ts` file is the component's TypeScript logic  
+> ✅ `counter.html` holds the template  
+> ✅ `counter.scss` contains the styling
+
+---
+
+## ▶️ Features
+
+- 📈 **Increment Button**: Adds 1 to the current count
+- 📉 **Decrement Button**: Subtracts 1 (can go into negative values)
+- 🔁 **Live Display** of the counter value
+
+---
+
+## 🛠️ Tech Stack
+
+- **Angular**
+- **TypeScript**
+- **HTML**
+- **SCSS**
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repo:
 
 ```bash
+git clone https://github.com/Sam-xiexielaoshi/Angular30D.git
+cd counter
+
+---
+
+## Install dependencies
+npm install
+
+## Run the app
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Vist: http://localhost:4200/
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## ✅ Outcome
 
-```bash
-ng generate component component-name
-```
+By the end of this project, you’ll understand how to:
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- ✅ Handle user events using Angular's `(click)` event binding
+- ✅ Structure your project with reusable Angular components
+- ✅ Dynamically update data in the view through component logic
 
-```bash
-ng generate --help
-```
+---
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+💪 **Keep going strong!**  
+Tomorrow we explore more Angular features like **Directives** and **Conditional Rendering**!
