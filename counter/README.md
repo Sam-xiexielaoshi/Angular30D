@@ -82,14 +82,22 @@ counter/
 ```bash
 git clone https://github.com/Sam-xiexielaoshi/Angular30D.git
 cd counter
+```
 
 ---
 
 ## Install dependencies
+```bash
 npm install
+```
+---
 
 ## Run the app
+```bash
 ng serve
+```
+
+---
 
 Vist: http://localhost:4200/
 
