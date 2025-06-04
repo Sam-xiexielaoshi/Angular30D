@@ -82,4 +82,47 @@ todo/
     <button (click)="removeTask(i)">Remove</button>
   </li>
 </ul>
+```
 
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the project
+```bash
+git clone https://github.com/your-username/todo-list-app.git
+cd todo-list-app
+```
+
+### 2. Install Dependencies
+```bash
+npm install 
+```
+
+### 3. Run the app
+```bash
+ng serve
+```
+
+---
+
+🔗 Open http://localhost:4200 in your browser.
+
+---
+
+## ✅ Outcome
+
+By the end of this project, you’ll have learned to:
+
+- ✅ Use Angular structural directives like `*ngIf` and `*ngFor`
+- ✅ Add interactivity with event binding and form handling
+- ✅ Dynamically update lists using JavaScript’s `push()` and `splice()` methods
+
+---
+
+💡 **Tip:** Don’t worry if you don’t fully grasp `.splice()` and `.push()` — these are JavaScript basics and will become more familiar with practice.
+
+---
+
+🎉 **Great work completing Day 3!**  
+Tomorrow, we’ll explore more dynamic Angular features and component interaction!
