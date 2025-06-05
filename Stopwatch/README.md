@@ -68,7 +68,6 @@ cd stopwatch
 
 ---
 
-```markdown
 ## 2. Install Dependencies
 ```bash
 npm install
