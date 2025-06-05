@@ -84,7 +84,6 @@ Open your browser and navigate to:
 
 ---
 
-```markdown
 ### 🧩 Key Code Concepts
 
 Stopwatch Logic (stopwatch.ts)
