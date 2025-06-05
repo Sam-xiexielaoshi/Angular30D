@@ -73,6 +73,7 @@ cd stopwatch
 npm install
 ```
 ## 3. Run the app
+``bash
 ng serve
 
 
