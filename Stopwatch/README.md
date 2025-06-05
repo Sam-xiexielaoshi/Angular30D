@@ -63,7 +63,7 @@ Stopwatch/
 
 ```bash
 git clone https://github.com/Sam-xiexielaoshi/Angular30D.git
-cd angular-stopwatch
+cd stopwatch
 ```
 
 ---
