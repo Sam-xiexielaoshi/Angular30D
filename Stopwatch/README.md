@@ -122,8 +122,6 @@ We use a simple method and optionally an Angular pipe to format the time to:
 ```makefile
 MM:SS.D
 ```
-```
-```
 
 ---
 
