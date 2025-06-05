@@ -152,4 +152,3 @@ Great job completing this **Angular Stopwatch App**! 🥳
 This small project is a solid step toward building more interactive and dynamic Angular applications.
 
 > 🚀 **Stay curious, and keep coding!** 💪
-```
