@@ -77,11 +77,8 @@ npm install
 ```bash
 ng serve
 ```
-```
 
----
 
-```markdown
 
 Open your browser and navigate to:
 👉 http://localhost:4200
