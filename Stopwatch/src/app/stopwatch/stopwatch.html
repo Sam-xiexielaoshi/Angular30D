@@ -1,0 +1,16 @@
+<div class="stopwatch-container">
+  <h2>Stopwatch</h2>
+  <p class="time">{{formatTime()}}</p>
+  <div class="controls">
+    <button (click)="startStop()">{{isRunning ? "Stop" : "Start"}}</button>
+    <button (click)="reset()" [disabled]="!elapsedTime">Reset</button>
+  </div>
+</div>
+<div class="logs-section">
+    <h3 class="logs-title">Stop Logs:</h3>
+    <div class="logs-list" *ngIf="getLogs().length">
+        <ul>
+            <li *ngFor="let log of getLogs()" class="log-item">{{ log }}</li>
+        </ul>
+    </div>
+</div>
