@@ -78,12 +78,12 @@ npm install
 ng serve
 ```
 ```
+```
 
-
+--- 
 
 Open your browser and navigate to:
 👉 http://localhost:4200
-```
 
 ---
 
