@@ -24,7 +24,7 @@ If they run out of attempts — **game over**.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/guess-the-number.git
+git clone https://github.com/Sam-xiexielaoshi/Angular30D.git
 cd guess-the-number
 ```
 ### 2. Install Dependencies
