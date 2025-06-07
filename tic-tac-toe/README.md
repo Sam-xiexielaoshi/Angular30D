@@ -1,6 +1,6 @@
-# 🎮 Day 5 - Tic Tac Toe Game (Angular)
+# 🎮 Day 6 - Tic Tac Toe Game (Angular)
 
-Welcome to **Day 5** of the Angular 30-Day Challenge!  
+Welcome to **Day 6** of the Angular 30-Day Challenge!  
 In this project, we’re recreating the timeless **Tic Tac Toe** game using Angular — complete with a clean UI, real-time updates, and automatic winner detection.
 
 ---
@@ -84,8 +84,8 @@ Open your browser at: http://localhost:4200
 
 ---
 ## 🎉 Final Words
-Amazing job finishing Day 5!
+Amazing job finishing Day 6!
 By building a fully interactive game, you’ve put key Angular concepts into real-world practice.
 
-Let’s keep pushing forward — Day 6 awaits with more challenges and exciting builds.
+Let’s keep pushing forward — Day 7 awaits with more challenges and exciting builds.
 Stay consistent, stay curious, and most importantly — keep coding! 🚀
