@@ -42,7 +42,7 @@ By building this game, you will strengthen your understanding of:
 ---
 
 ## 📁 Folder Structure
-
+```kotlin
 tic-tac-toe/
 ├── src/
 │ └── app/
@@ -60,6 +60,8 @@ tic-tac-toe/
 ├── angular.json
 ├── package.json
 ├── README.md
+
+```
 
 ---
 
