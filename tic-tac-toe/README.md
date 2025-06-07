@@ -69,8 +69,8 @@ tic-tac-toe/
 ### 1. Clone the Project
 
 ```bash
-git clone https://github.com/your-username/tic-tac-toe-angular.git
-cd tic-tac-toe-angular
+git clone https://github.com/Sam-xiexielaoshi/Agnualr30D.git
+cd tic-tac-toe
 ```
 ### 2. Install Dependencies
 ```bash
@@ -81,3 +81,11 @@ npm install
 ng serve
 ```
 Open your browser at: http://localhost:4200
+
+---
+## 🎉 Final Words
+Amazing job finishing Day 5!
+By building a fully interactive game, you’ve put key Angular concepts into real-world practice.
+
+Let’s keep pushing forward — Day 6 awaits with more challenges and exciting builds.
+Stay consistent, stay curious, and most importantly — keep coding! 🚀
