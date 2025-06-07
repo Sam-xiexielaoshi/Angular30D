@@ -42,6 +42,7 @@ By building this game, you will strengthen your understanding of:
 ---
 
 ## 📁 Folder Structure
+
 ```kotlin
 tic-tac-toe/
 ├── src/
@@ -60,9 +61,7 @@ tic-tac-toe/
 ├── angular.json
 ├── package.json
 ├── README.md
-
 ```
-
 ---
 
 ## 🚀 Getting Started
@@ -72,3 +71,13 @@ tic-tac-toe/
 ```bash
 git clone https://github.com/your-username/tic-tac-toe-angular.git
 cd tic-tac-toe-angular
+```
+### 2. Install Dependencies
+```bash
+npm install
+```
+### 3. Run the Application
+```bash
+ng serve
+```
+Open your browser at: http://localhost:4200
