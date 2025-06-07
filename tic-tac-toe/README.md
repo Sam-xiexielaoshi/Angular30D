@@ -1,59 +1,72 @@
-# TicTacToe
+# 🎮 Day 5 - Tic Tac Toe Game (Angular)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.0.
+Welcome to **Day 5** of the Angular 30-Day Challenge!  
+In this project, we’re recreating the timeless **Tic Tac Toe** game using Angular — complete with a clean UI, real-time updates, and automatic winner detection.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🧠 Project Description
+
+This game allows **two players** to compete by placing **X** or **O** on a 3×3 board.  
+Each move is dynamically updated and the winner is automatically detected when a winning condition is met.
+
+🕹️ **Key Features:**
+
+- ✅ **Dynamic Gameplay**  
+  Players take alternate turns with the current player visibly indicated.
+
+- ✅ **Winner Detection**  
+  Automatically checks for winning combinations and displays the winner.
+
+- ✅ **Draw Condition**  
+  If all cells are filled and no winner is found, the game ends in a draw.
+
+- ✅ **Reset Functionality**  
+  Players can reset the game anytime to start over.
+
+---
+
+## ✅ Concepts Practiced
+
+By building this game, you will strengthen your understanding of:
+
+- ✅ Angular Component creation and structuring
+- ✅ Property and Event Binding
+- ✅ Two-Way Data Binding with `[(ngModel)]`
+- ✅ Structural directives (`*ngIf`, `*ngFor`)
+- ✅ Managing UI state and logic inside the component
+- ✅ Updating the DOM in real time
+- ✅ SCSS-based styling
+- ✅ Modular project structure in Angular
+
+---
+
+## 📁 Folder Structure
+
+tic-tac-toe/
+├── src/
+│ └── app/
+│ └── tic-tac-toe/
+│ ├── tic-tac-toe.html
+│ ├── tic-tac-toe.scss
+│ ├── tic-tac-toe.ts
+│ ├── app.config.ts
+│ ├── app.html
+│ ├── app.routes.ts
+│ ├── app.scss
+│ ├── app.ts
+│ ├── main.ts
+│ ├── styles.scss
+├── angular.json
+├── package.json
+├── README.md
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Project
 
 ```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+git clone https://github.com/your-username/tic-tac-toe-angular.git
+cd tic-tac-toe-angular
